@@ -1,0 +1,10 @@
+{
+  "chainId": 10143,
+  "deployedAt": 1792842934,
+  "market": "0x05787BaCF3fb55A79daE4fE2A922f54CDC67FaF7",
+  "mockUsdc": false,
+  "oracle": "0x559B037e7e8e9e2292081FE756Cf7557aD27cAf9",
+  "pyth": "0xFC6bd9F9f0c6481c6Af3A7Eb46b296A5B85ed379",
+  "usdc": "0xBE2f84712EFBcB54DA566AC44e6e6Bd1b42e7b41",
+  "vault": "0x46CB52dceC5dfd30FbC656B11F09C10eb3099B2D"
+}

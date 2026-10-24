@@ -1,0 +1,31 @@
+{
+  "name": "montap-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "abi": "node scripts/gen-abi.mjs",
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx watch src/server.ts",
+    "dev:keeper": "tsx watch src/keeper.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.3.1",
+    "@fastify/rate-limit": "^11.2.1",
+    "@fastify/websocket": "^11.3.4",
+    "fastify": "^5.12.7",
+    "ioredis": "^5.6.1",
+    "pg": "^8.23.1",
+    "pino": "^10.4.0",
+    "viem": "^2.57.11",
+    "ws": "^8.22.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/pg": "^8.23.1",
+    "@types/ws": "^8.18.2",
+    "tsx": "^4.23.15",
+    "typescript": "~5.9.3"
+  }
+}
